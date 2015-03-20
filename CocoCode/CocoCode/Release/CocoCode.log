@@ -1,0 +1,53 @@
+﻿生成启动时间为 2011/2/26 17:56:57。
+     1>项目“C:\Users\qrc\Desktop\CocoCode - 副本\CocoCode\CocoCode.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“C:\Users\qrc\Desktop\CocoCode - 副本\Release\”。
+       InitializeBuildStatus:
+         正在创建“Release\CocoCode.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\CocoCode.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\CocoCode.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ChildFrm.cpp CntrItem.cpp CocoCode.cpp CocoCodeDoc.cpp CocoCodeView.cpp MainFrm.cpp PopListCtrl.cpp PopuoListBox.cpp
+         ChildFrm.cpp
+         CntrItem.cpp
+         CocoCode.cpp
+         CocoCodeDoc.cpp
+         CocoCodeView.cpp
+     1>CocoCodeView.cpp(67): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(283) : 参见“wcscpy”的声明
+     1>CocoCodeView.cpp(243): warning C4018: “>=”: 有符号/无符号不匹配
+     1>CocoCodeView.cpp(564): warning C4018: “<”: 有符号/无符号不匹配
+     1>CocoCodeView.cpp(586): warning C4018: “<”: 有符号/无符号不匹配
+     1>CocoCodeView.cpp(601): warning C4018: “>=”: 有符号/无符号不匹配
+         MainFrm.cpp
+         PopListCtrl.cpp
+         PopuoListBox.cpp
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\CocoCode.res" CocoCode.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\qrc\Desktop\CocoCode - 副本\Release\CocoCode.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\CocoCode.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\qrc\Desktop\CocoCode - 副本\Release\CocoCode.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\qrc\Desktop\CocoCode - 副本\Release\CocoCode.lib" /MACHINE:X86 Release\CocoCode.res
+         Release\ChildFrm.obj
+         Release\CntrItem.obj
+         Release\CocoCode.obj
+         Release\CocoCodeDoc.obj
+         Release\CocoCodeView.obj
+         Release\MainFrm.obj
+         Release\PopListCtrl.obj
+         Release\PopuoListBox.obj
+         Release\stdafx.obj
+         正在生成代码
+     1>c:\users\qrc\desktop\cococode - 副本\cococode\cococodeview.cpp(353): warning C4715: “CCocoCodeView::GetLineIndent”: 不是所有的控件路径都返回值
+     1>c:\users\qrc\desktop\cococode - 副本\cococode\cococodeview.cpp(490): warning C4715: “CCocoCodeView::GetCurrentLine”: 不是所有的控件路径都返回值
+     1>c:\users\qrc\desktop\cococode - 副本\cococode\cococodeview.cpp(761): warning C4715: “CCocoCodeView::ContinueOnChar”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         CocoCode.vcxproj -> C:\Users\qrc\Desktop\CocoCode - 副本\Release\CocoCode.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\qrc\Desktop\CocoCode - 副本\Release\CocoCode.exe;#1" /manifest Release\CocoCode.exe.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\CocoCode.unsuccessfulbuild”。
+         正在对“Release\CocoCode.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\qrc\Desktop\CocoCode - 副本\CocoCode\CocoCode.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:16.77

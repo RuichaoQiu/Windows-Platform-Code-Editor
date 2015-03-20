@@ -1,0 +1,2 @@
+abcdef: file not recognized: File format not recognized
+collect2: ld returned 1 exit status
